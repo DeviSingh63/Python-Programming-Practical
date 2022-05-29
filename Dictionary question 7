@@ -1,14 +1,5 @@
-7 - Horizontal Stacking of Numpy Arrays
-Stack 2 numpy arrays horizontally i.e., 2 arrays having the same 1st dimension (number of rows in 2D arrays)
-
- Solution:-
-
-a1 = np.array([[1,2,3],
-               [4,5,6]])
-
-a2 = np.array([[7,8,9],
-               [10,11,12]])
-
-o = np.hstack((a1, a2))
-
-print(o)
+ 7: Check if a value exists in a dictionary
+sol:-sample_dict = {'a': 100, 'b': 200, 'c': 300}
+if 200 in sample_dict.values():
+    print('200 present in a dict')
+ 
